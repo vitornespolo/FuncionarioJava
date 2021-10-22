@@ -17,10 +17,10 @@ public class Funcionario extends BaseEntityImpl{
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getSobrenome() {
+	public String getSobreNome() {
 		return sobreNome;
 	}
-	public void setSobrenome(String sobreNome) {
+	public void setSobreNome(String sobreNome) {
 		this.sobreNome = sobreNome;
 	}
 	public String getEmail() {
