@@ -24,6 +24,7 @@ public class FuncionarioWs {
 	private FuncionarioBean funcionarioBean;
 
 	@POST
+	@Path("salvar")
 	@Produces(MediaType.APPLICATION_JSON)
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Response salvar(Funcionario funcionario) {
