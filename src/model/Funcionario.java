@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 public class Funcionario extends BaseEntityImpl{
 	
 	private String nome;
-	private String sobrenome;
+	private String sobreNome;
 	private String email;
 	private Integer pis;
 	
@@ -18,10 +18,10 @@ public class Funcionario extends BaseEntityImpl{
 		this.nome = nome;
 	}
 	public String getSobrenome() {
-		return sobrenome;
+		return sobreNome;
 	}
-	public void setSobrenome(String sobrenome) {
-		this.sobrenome = sobrenome;
+	public void setSobrenome(String sobreNome) {
+		this.sobreNome = sobreNome;
 	}
 	public String getEmail() {
 		return email;
